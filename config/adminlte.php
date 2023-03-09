@@ -1,5 +1,7 @@
 <?php
 
+use SebastianBergmann\Type\TrueType;
+
 return [
 
     /*

@@ -11,6 +11,15 @@
 
 @section('content')
     <p>Welcome to this beautiful admin panel.</p>
+    @role('admin')
+    <p>hola admin</p>
+@endrole
+@role('soporte')
+    <p>hola soporte</p>
+@endrole
+@role('usuario')
+    <p>hola usuario</p>
+@endrole
 @stop
 
 @section('css')
